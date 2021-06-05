@@ -16,7 +16,9 @@ const Gear = ({ invert = false, isBig = false, gearType = 1, className }) => {
       {/* Back to front */}
       <GearSVG
         gearType={gearType}
-        className={` ${!isBig ? "w-16 h-16" : "w-24 h-24"} opacity-90 absolute`}
+        className={` ${
+          !isBig ? "w-16 h-16" : "w-24 h-24"
+        } opacity-90 absolute transition-transform`}
         color="#fff"
         style={{
           transform: `rotate(${invert ? scrollY : -scrollY}deg)`,
