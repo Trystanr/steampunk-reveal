@@ -58,7 +58,7 @@ export default function Home() {
         style={{ height: "50vh" }}
       >
         <h2
-          className="font-medium text-6xl opacity-60"
+          className="font-medium text-6xl opacity-60 text-center"
           style={{
             textShadow: "rgb(0 0 0) 1px 1px 0px, rgb(75 60 53) 4px 4px 0px",
             color: "rgb(251 206 116)",
@@ -68,15 +68,15 @@ export default function Home() {
         </h2>
       </div>
       <div
-        className="border-t border-white w-screen max-w-6xl mx-auto opacity-60"
+        className="border-t border-white w-screen max-w-xs md:max-w-6xl mx-auto opacity-60"
         style={{ borderColor: "rgb(251 206 116)" }}
       />
       <div
-        className=" flex flex-col items-center justify-center max-w-4xl mx-auto"
+        className=" flex flex-col items-center justify-center max-w-4xl mx-auto "
         style={{ height: "50vh" }}
       >
         <h2
-          className="font-medium text-6xl opacity-60"
+          className="font-medium text-6xl opacity-60 text-center md:text-left"
           style={{
             textShadow: "rgb(0 0 0) 1px 1px 0px, rgb(75 60 53) 4px 4px 0px",
             color: "rgb(251 206 116)",
@@ -85,7 +85,7 @@ export default function Home() {
           "No self-respecting <br /> Journeyman should be without one"
         </h2>
         <h2
-          className="font-medium text-4xl opacity-60 self-end"
+          className="font-medium text-4xl opacity-60 self-end text-center md:text-right"
           style={{
             textShadow: "rgb(0 0 0) 1px 1px 0px, rgb(75 60 53) 4px 4px 0px",
             color: "rgb(251 206 116)",
@@ -95,11 +95,11 @@ export default function Home() {
         </h2>
       </div>
       <div
-        className="border-t border-white w-screen max-w-6xl mx-auto opacity-60"
+        className="border-t border-white w-screen max-w-xs md:max-w-6xl mx-auto opacity-60"
         style={{ borderColor: "rgb(251 206 116)" }}
       />
       <div
-        className=" flex flex-col items-center justify-center max-w-4xl mx-auto"
+        className=" flex flex-col items-center justify-center max-w-4xl mx-auto text-center"
         style={{ height: "50vh" }}
       >
         <h2
@@ -117,14 +117,14 @@ export default function Home() {
         <Frame />
       </div>
       <footer
-        className=" flex items-end justify-center px-40 relative bg-cover"
+        className=" flex items-end  justify-center text-center pb-20 md:pb-0 px-8 md:px-40 relative bg-cover"
         style={{
           backgroundImage: "url(../grunge-texture-12-1920x1080.jpg)",
           height: "30vh",
         }}
       >
         <h4
-          className="py-8 text-lg font-bold"
+          className="py-8 text-lg font-bold "
           style={{
             color: "#0A0600",
             textShadow:
