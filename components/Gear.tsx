@@ -18,7 +18,7 @@ const Gear = ({ invert = false, isBig = false, gearType = 1, className }) => {
         gearType={gearType}
         className={` ${
           !isBig ? "w-16 h-16" : "w-24 h-24"
-        } opacity-90 absolute transition-transform`}
+        } opacity-90 absolute transform-gpu`}
         color="#fff"
         style={{
           transform: `rotate(${invert ? scrollY : -scrollY}deg)`,
