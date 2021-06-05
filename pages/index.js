@@ -53,6 +53,10 @@ export default function Home() {
       </div>
       {/* <div style={{ height: "300vh" }}></div> */}
 
+      <div className=" flex items-center justify-center py-40">
+        <img src="../images/Goggles.png" style={{ height: "50vh" }} />
+      </div>
+
       <div
         className=" flex items-center justify-center"
         style={{ height: "50vh" }}

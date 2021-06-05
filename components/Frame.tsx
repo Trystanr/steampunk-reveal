@@ -48,6 +48,12 @@ const Frame = () => {
                     className=" overflow-hidden"
                   >
                     <div>
+                      <img src="../images-squoosh/IMG_1122.jpg" />
+                    </div>
+                    <div>
+                      <img src="../images-squoosh/IMG_1124.jpg" />
+                    </div>
+                    <div>
                       <img src="../images-squoosh/IMG_1119.jpg" />
                     </div>
                     <div>
